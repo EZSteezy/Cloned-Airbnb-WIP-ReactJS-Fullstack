@@ -1,0 +1,153 @@
+#amenity_home {
+    margin: auto; /* center the element on the page */
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: auto; /* set the grid to have one column */
+    justify-content: flex-start; /* align items to the left of the grid */
+    align-items: flex-start; /* align items to the top of the grid */
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+#sleep_size{
+    margin-left: 20px;
+
+}
+
+#sleep_accomidation{
+    background-color: white;
+    border: 3px solid lightgrey;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+#sleep_symbol{
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+#sleep_room{
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#sleep_type{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 15px;
+    color: gray;
+}
+
+#other_text{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#symbol_text{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+#amenity_symbol{
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.btnWrapper{
+    position: relative;
+    z-index: 1;
+}
+
+#overlay_amenity{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+#amentity_modal{
+    position: fixed;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 50px;
+    z-index: 1000;
+}
+
+#amenity_close{
+    cursor: pointer;
+    background-color: white;
+}
+
+#amenityBtn{
+    margin-top: 20px;
+    height: 48px;
+    width: 209px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#table_title{
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 80px;
+}
+
+#table_grid{
+    display: grid;
+    height: 600px;
+    width: 700px;
+    overflow: scroll;
+   
+}
+
+#table_room{
+    font-size: 20px;
+    display: grid;
+}
+
+#room_items{
+    display: inline-flex;
+}
+
+#items_img{
+    height: 40px;
+    width: 40px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+#items_name{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#items_not_included{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: line-through;
+}

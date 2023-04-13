@@ -1,0 +1,24 @@
+#mainheader{
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+}
+
+
+
+#logo{
+    cursor: pointer; 
+    background: none; 
+    border: none;
+    color: red;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#logo_img{
+    width: 30px; 
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}

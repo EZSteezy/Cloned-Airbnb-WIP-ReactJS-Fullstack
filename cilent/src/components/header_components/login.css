@@ -1,0 +1,184 @@
+#lineBtn{
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 40px;
+    width: 80px;
+    height: 42px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-align: left;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#loginId{
+    height: 30px;
+    width: 30px;
+    margin-left: 13px;
+    margin-top: 3px
+    
+}
+
+#logInWin{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    display: grid;
+    margin-left: 1320px;
+}
+
+#login_modal{
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 50px;
+    z-index: 1000;
+  }
+
+#disableLogin{
+    border: none;
+    background: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+#disableLogin:hover{
+    background: rgba(211, 211, 211, 0.3);
+}
+
+#winModal{
+    position: fixed;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 50px;
+    z-index: 1000;
+}
+
+#win_close{
+    border: none;
+    background: none;
+}
+
+#signBtn{
+    border: none;
+    background: none;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#login_signup{
+    display: flex;
+}
+
+#signup_title{
+    display: grid;
+}
+
+#signup_login{
+    font-size: 20px;
+}
+
+#signup_lower{
+    display: grid;
+}
+
+#signup_welcome{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#signup_phone{
+    text-align: left;
+    font-size: 30px;
+    border-radius:10px;
+}
+
+#signup_final{
+    font-size: 15px;
+    margin-top: 5px;
+    padding-bottom: 0px;
+    font-weight: normal;
+}
+
+#signup_privacy{
+    border: none;
+    background: none;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#signup_continue{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#signup_siteBtn{
+    display: flex;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#signup_face{
+    align-self: center;
+    height: 30px;
+    width: 40px;
+    margin-right: 260px;
+}
+
+#signup_apple{
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    margin-right: 280px;
+}
+
+#sign_box{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#region_text{
+    color: gray;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+
+#signup_region{
+    
+    width: 900px;
+    font-size: 30px;
+    border: none;
+    margin: 0px, 0px, 0px, 0px;
+}

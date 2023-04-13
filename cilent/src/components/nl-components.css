@@ -1,0 +1,194 @@
+.btnWrapper{
+  position: relative;
+  z-index: 1;
+}
+
+#globe_div{
+  margin-right: 40px;
+}
+
+#line_up{
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+#heartimg{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+#saveBtn{
+  display: flex;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 15px
+}
+
+#saveBtn:hover{
+  background: whitesmoke;
+}
+
+#globeBtn{
+  height: 18px;
+  width: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex !important;
+  margin-top: 0px;
+}
+
+#globeModal{
+  position: fixed;
+  width: 1000px;
+  height: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFF;
+  padding: 50px;
+  z-index: 1000;
+  overflow-y: scroll;
+}
+
+#overlay_globe{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+#globe_close{
+  cursor: pointer;
+  background-color: white;
+}
+
+#tab_btn{
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#tabLarSep{
+  height: 70px;
+}
+
+#tabMedSep{
+  height: 50px;
+}
+
+#translation{
+  background-color: lightgray;
+  display: flex;
+  border-radius: 10px;
+  width: 450px;
+}
+
+#t_title{
+  font-size: 20px;
+}
+
+#t_img{
+  height: 20px;
+  width: 20px;
+}
+
+#lanCheck{
+  position: relative;
+  left: 90px;
+  top: 10px;
+  border-radius: 100%;
+  height: 50px;
+}
+
+#t_descrip{
+  font-size: 10px;
+}
+
+#selection_title{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+#lan_grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+}
+
+#regionBtn{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background: none;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#region_title{
+  font-size: 10px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+#curr_grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+}
+
+#currBtn{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background: none;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#currBtn:hover{
+  background: lightgrey;
+}
+
+#curr_type{
+  font-size: 10px;
+  padding-top: 0;
+  padding-bottom: 10px;
+  color: grey;
+  font-weight: bold;
+}
+
+#mainrightside {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#maincenter {
+margin-left: 100px;
+}
+
+#reviewsection {
+  margin-top: 10px !important;
+  text-align: left !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+notes for pushes and pulls w/our git repo on gitlab
+
+
+GETTING INTO THE REPO TO MAKE CHANGES
+cd into folder for repo
+git remote add origin https://gitlab.com/girl-scout-rangers/clone-airbnb.git 
+git branch -M main // (or whichever branch youre working on)
+
+
+PUSH COMMITS/CHANGES TO BRANCH
+git add -A 
+git commit -m '(comment)'
+git push origin main (or whichever branch youre working on)
+
+
+PULL CHANGES TO BRANCH
+git pull main (or whichever branch youre working on)
